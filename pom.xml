@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.increv.maven</groupId>
 	<artifactId>host-maven-repo-example</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>host-maven-repo-example</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -83,6 +83,10 @@
 			        <repositoryName>host-maven-repo-example</repositoryName>
 			        <repositoryOwner>RajIncRev</repositoryOwner>
 			        <server>github</server>
+			        <userName>RajIncRev</userName>
+			        <!-- <path>${site.path}</path> -->
+			         <!-- Use merge or override the content -->
+               		<!--  <merge>true</merge> -->
 			    </configuration>
 			    <executions>
 			        <execution>
